@@ -15,7 +15,7 @@ C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57770
+54309
 Successfully changed project path to: C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20064] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 1208097676 [EditorId] 1208097676 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24700] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 3888237587 [EditorId] 3888237587 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20064] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 1208097676 [EditorId] 1208097676 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24700] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 3888237587 [EditorId] 3888237587 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 29.36 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 28.06 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006501 seconds.
-- Loaded All Assemblies, in  0.279 seconds
+Registered in 0.006358 seconds.
+- Loaded All Assemblies, in  0.276 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.203 seconds
-Domain Reload Profiling: 481ms
-	BeginReloadAssembly (101ms)
+Domain Reload Profiling: 478ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (95ms)
-		LoadAssemblies (99ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (82ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (204ms)
+	FinalizeReload (203ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (161ms)
+		SetupLoadedEditorAssemblies (162ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 481ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.588 seconds
-Refreshing native plugins compatible for Editor in 16.16 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 16.94 ms, found 14 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,8 +147,8 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.539 seconds
-Domain Reload Profiling: 1122ms
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1094ms
 	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
@@ -158,36 +158,36 @@ Domain Reload Profiling: 1122ms
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (393ms)
-		LoadAssemblies (309ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (134ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (136ms)
 				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (539ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (514ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
+		SetupLoadedEditorAssemblies (396ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 18.71 ms, found 14 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 18.35 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 92 unused Assets / (81.4 KB). Loaded Objects now: 4995.
 Memory consumption went from 153.1 MB to 153.0 MB.
-Total: 2.989000 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.423000 ms  DeleteObjects: 0.147600 ms)
+Total: 3.437200 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.201800 ms MarkObjects: 2.756400 ms  DeleteObjects: 0.151200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -203,3 +203,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20899.716116 seconds.
+  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/Materials
+  artifactKey: Guid(4b9abae73f794f744b65ebc0fb5e0c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/Materials using Guid(4b9abae73f794f744b65ebc0fb5e0c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d5f588d0ddeb6cdff78ac397932fb2') in 0.001979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.991510 seconds.
+  path: Assets/URDF/Materials
+  artifactKey: Guid(0d3c15f1e3b3fb145a34b82f01239968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Materials using Guid(0d3c15f1e3b3fb145a34b82f01239968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b05ec8e2cfd2d2bb3e50887b15189b') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.213876 seconds.
+  path: Assets/URDF/Materials/panda_white.mat
+  artifactKey: Guid(b14bd014d8b38534fa7cb9b82e5fdced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Materials/panda_white.mat using Guid(b14bd014d8b38534fa7cb9b82e5fdced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d76d3364e662aacfac7512272129431') in 0.078522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.968745 seconds.
+  path: Assets/URDF/Panda
+  artifactKey: Guid(a3fa9dde93d794d46950961824554da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda using Guid(a3fa9dde93d794d46950961824554da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef65cf5abdfa8d2349734a92804bcd1') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.212934 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual
+  artifactKey: Guid(49a7e297e23854846b164366f8eff986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual using Guid(49a7e297e23854846b164366f8eff986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255aff405d7e50be818b15a482a5a8b7') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.296571 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/finger.dae
+  artifactKey: Guid(1a4c418820c28d442802745e40884c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/finger.dae using Guid(1a4c418820c28d442802745e40884c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9106d96dd4b20af53c134bc8c5688ab8') in 0.068741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link7.dae
+  artifactKey: Guid(4ffa4463182e44b4dbec362f6a456f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link7.dae using Guid(4ffa4463182e44b4dbec362f6a456f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad977f00afe108abc235dcf16fa0ae2') in 0.141875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link1.dae
+  artifactKey: Guid(3c9f8caac4a314543851cfe22d9922e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link1.dae using Guid(3c9f8caac4a314543851cfe22d9922e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a415e88c40ef82e4a2463fd52a2767a7') in 0.028470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link0.dae
+  artifactKey: Guid(2f4055b3e35574e4b9e73744d27627cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link0.dae using Guid(2f4055b3e35574e4b9e73744d27627cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8f038e856b40858e934a66a63f37b') in 0.111089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link6.dae
+  artifactKey: Guid(a6f16e6be5338744fb468178e8c91936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDF/Panda/PandaRobot.jl-master/deps/Panda/meshes/visual/link6.dae using Guid(a6f16e6be5338744fb468178e8c91936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07955f5b554dcc6bf99e61b23a54b4f') in 0.136216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
