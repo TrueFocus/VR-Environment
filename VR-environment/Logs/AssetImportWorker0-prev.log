@@ -15,7 +15,7 @@ C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54309
+55094
 Successfully changed project path to: C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23672] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 1776709592 [EditorId] 1776709592 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26788] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 4187960703 [EditorId] 4187960703 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23672] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 1776709592 [EditorId] 1776709592 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26788] Host "[IP] 192.168.2.30 [Port] 0 [Flags] 2 [Guid] 4187960703 [EditorId] 4187960703 [Version] 1048832 [Id] WindowsEditor(7,TrueFocus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 26.75 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 25.43 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007445 seconds.
-- Loaded All Assemblies, in  0.288 seconds
+Registered in 0.007276 seconds.
+- Loaded All Assemblies, in  0.347 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.214 seconds
-Domain Reload Profiling: 500ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 563ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (93ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (100ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (98ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (214ms)
+	FinalizeReload (219ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 500ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.627 seconds
-Refreshing native plugins compatible for Editor in 17.50 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 18.45 ms, found 14 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.551 seconds
-Domain Reload Profiling: 1174ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (416ms)
-		LoadAssemblies (325ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (318ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (127ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (551ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (547ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
+		SetupLoadedEditorAssemblies (420ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 17.08 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 18.89 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (81.3 KB). Loaded Objects now: 4995.
-Memory consumption went from 153.1 MB to 153.0 MB.
-Total: 3.774200 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.195700 ms MarkObjects: 3.106300 ms  DeleteObjects: 0.152400 ms)
+Unloading 92 unused Assets / (81.6 KB). Loaded Objects now: 4995.
+Memory consumption went from 153.0 MB to 153.0 MB.
+Total: 3.497200 ms (FindLiveObjects: 0.322700 ms CreateObjectMapping: 0.222600 ms MarkObjects: 2.790900 ms  DeleteObjects: 0.160400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -205,134 +205,414 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20777.649696 seconds.
-  path: Assets/URDF/panda/Materials/Default.mat
-  artifactKey: Guid(d4362581b6bb039449521550ccecdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/Materials/Default.mat using Guid(d4362581b6bb039449521550ccecdbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95423e55d6299c9387b88e80b67bf449') in 0.085265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 25.864010 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master
-  artifactKey: Guid(14131698c64d33b4f95ea71f7f14c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master using Guid(14131698c64d33b4f95ea71f7f14c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a4da23a92f373a4ae4ebe6f34710ec') in 0.000466 seconds
+  Time since last request: 22635.003685 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Controller/Controller.cs
+  artifactKey: Guid(d607ea46a579d44c4b19a6322ce4b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Controller/Controller.cs using Guid(d607ea46a579d44c4b19a6322ce4b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65af01db66b255bf2607ff218f9ef331') in 0.002564 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.293073 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps
-  artifactKey: Guid(dbc07e9ab62ac4c40b7b334142d74689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps using Guid(dbc07e9ab62ac4c40b7b334142d74689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5346525f58e80c7588bee3cfcd53c0') in 0.000432 seconds
+  Time since last request: 264.717006 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Controller/JointControl.cs
+  artifactKey: Guid(40e529cb207884a939b5a774102363e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Controller/JointControl.cs using Guid(40e529cb207884a939b5a774102363e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd1ffecfbf5aaf7fc5dff72d52231b7') in 0.000554 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.910389 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/build.jl
-  artifactKey: Guid(7da97453f6be9ca4ca4213522e1460b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/build.jl using Guid(7da97453f6be9ca4ca4213522e1460b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7509e577ca9b2c071e36d60dc6bd58') in 0.000749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.779249 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda
-  artifactKey: Guid(d59a375cd5a60b04398dc2bdd609895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda using Guid(d59a375cd5a60b04398dc2bdd609895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de34c459edeb05b2c1abd240623b3c26') in 0.000596 seconds
+  Time since last request: 93.753897 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Unity.Robotics.URDFImporter.asmdef
+  artifactKey: Guid(b1ef917f7a8a86a4eb639ec2352edbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Unity.Robotics.URDFImporter.asmdef using Guid(b1ef917f7a8a86a4eb639ec2352edbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e9e9d207e6a4bc37a846fbf96056e5') in 0.000689 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.452759 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/panda.urdf
-  artifactKey: Guid(61910605e39e89c4395700914d253ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/panda.urdf using Guid(61910605e39e89c4395700914d253ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955eebf6aaaa913519325ca8b051a009') in 0.001052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 24.971922 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/Materials
-  artifactKey: Guid(eb76ef77ec7f60245a473301857ffa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/Materials using Guid(eb76ef77ec7f60245a473301857ffa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314abcfe4c4b82ebb373234877f752d0') in 0.000421 seconds
+  Time since last request: 6.010722 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/AssetHandlers
+  artifactKey: Guid(0531422a05558a841bc329ab7070660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/AssetHandlers using Guid(0531422a05558a841bc329ab7070660b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6e24600291bcfd1a5646dfcc1f77ea') in 0.000579 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.799698 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes
-  artifactKey: Guid(e91824f81f24e6e48aacb8c432b53d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes using Guid(e91824f81f24e6e48aacb8c432b53d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efd17744d324d1a222f8789706437f0') in 0.000529 seconds
+  Time since last request: 4.657885 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/AssetHandlers/LocateAssetHandler.cs
+  artifactKey: Guid(7c8466a168c9bdc4085c7a930a64e01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/AssetHandlers/LocateAssetHandler.cs using Guid(7c8466a168c9bdc4085c7a930a64e01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3130ea76207c7ed78e1c065fe449b61') in 0.000682 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.591620 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision
-  artifactKey: Guid(cb52ef7b404c7c34eafe396b1b652caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision using Guid(cb52ef7b404c7c34eafe396b1b652caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c3bc017958e764049fc2dbcddae22') in 0.000474 seconds
+  Time since last request: 5.935671 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/UrdfComponents
+  artifactKey: Guid(1e9969200082c534ab0a6caa089bd5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/UrdfComponents using Guid(1e9969200082c534ab0a6caa089bd5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ae6e464943e7edb23a0e48cf5c394c') in 0.000729 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.070362 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/finger.obj
-  artifactKey: Guid(dc937a3cd43f67c49af5ad7cc7e6300e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/finger.obj using Guid(dc937a3cd43f67c49af5ad7cc7e6300e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5357ffd7722bd7801ba6668857459c41') in 0.050984 seconds
+  Time since last request: 1.414356 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/VHACD
+  artifactKey: Guid(fe4834ab1a2100847a5ccfadc5774c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/VHACD using Guid(fe4834ab1a2100847a5ccfadc5774c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c0f9d03c0e7511bccf579cb5c9dd60') in 0.000691 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link1.obj
-  artifactKey: Guid(3fbad3e5e95d4954b9474fece2181070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link1.obj using Guid(3fbad3e5e95d4954b9474fece2181070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b215a3376baccd1116187f6fc3b900df') in 0.032229 seconds
+  Time since last request: 1.853626 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/UnityMeshImporter
+  artifactKey: Guid(c94b7cde4e64747c9b754542d16dd19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/UnityMeshImporter using Guid(c94b7cde4e64747c9b754542d16dd19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5886d387830d27338f76fc5ce8e0f481') in 0.000653 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link4.obj
-  artifactKey: Guid(238f457dea85c9443b611887988502ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link4.obj using Guid(238f457dea85c9443b611887988502ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b228a65d1af8025a80f12f642628e225') in 0.024783 seconds
+  Time since last request: 0.959684 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/RosSharpDefinitions
+  artifactKey: Guid(4d27646436f058c4abf39df74eb3f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/RosSharpDefinitions using Guid(4d27646436f058c4abf39df74eb3f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188e06d899d9169b9b991bb9eac94e9f') in 0.001314 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link5.obj
-  artifactKey: Guid(d858e6404e2879e4e87ac874a7c5b961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link5.obj using Guid(d858e6404e2879e4e87ac874a7c5b961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc7ac78ac3fe988ba60d210e06fe67c') in 0.028277 seconds
+  Time since last request: 0.380586 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Properties
+  artifactKey: Guid(9e5e78882e5b56a4a857735cb45f34f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Properties using Guid(9e5e78882e5b56a4a857735cb45f34f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1193caa76f8056511dd5b135fecffb21') in 0.000641 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link3.obj
-  artifactKey: Guid(0792eba74734f254ca16d11ac9d0cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link3.obj using Guid(0792eba74734f254ca16d11ac9d0cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af4c197e5bfa2ee3e2d7d169fc00ad') in 0.033989 seconds
+  Time since last request: 0.378178 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/MeshProcessing
+  artifactKey: Guid(a201ede7f45054f49b509ba49317e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/MeshProcessing using Guid(a201ede7f45054f49b509ba49317e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984035d3339c42a0b1a8522b4d3ea00b') in 0.000668 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link0.obj
-  artifactKey: Guid(fa8b54549ea12504bb1c4e297c72e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link0.obj using Guid(fa8b54549ea12504bb1c4e297c72e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c951c62d827c716c6f269cbc344a253') in 0.030021 seconds
+  Time since last request: 0.459577 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Math
+  artifactKey: Guid(c94549e62512a3b41b4a9838f73ee6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Math using Guid(c94549e62512a3b41b4a9838f73ee6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7814a8a26808bab0f1ebf387c4da56b') in 0.000491 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link2.obj
-  artifactKey: Guid(14a8b6d0223b8ef4d9fe5474336a220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDF/panda/PandaRobot.jl-master/deps/Panda/meshes/collision/link2.obj using Guid(14a8b6d0223b8ef4d9fe5474336a220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a9bed894e6f221961a5e51cc7d1d27') in 0.033787 seconds
+  Time since last request: 0.902131 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/JointLimitsManagers
+  artifactKey: Guid(bd08601e1af276a4c978f077e584a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/JointLimitsManagers using Guid(bd08601e1af276a4c978f077e584a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc0586815b93741d4fbc1db2b0fba2d') in 0.000445 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.171037 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Extensions
+  artifactKey: Guid(00748cd711d82a14bb959693166c12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Extensions using Guid(00748cd711d82a14bb959693166c12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470d35066ad7e73198d62edde45ebdbe') in 0.000667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.286712 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Controller
+  artifactKey: Guid(a1cbca7e87f234f36896b83a23f3c7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Controller using Guid(a1cbca7e87f234f36896b83a23f3c7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc7d59f042e365de3cff54abb62a45b') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.869667 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/AssemblyInfo.cs
+  artifactKey: Guid(195895fc9166341788e0eb566d1f4ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/AssemblyInfo.cs using Guid(195895fc9166341788e0eb566d1f4ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8988ff010199aedf063f43864816633') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.200250 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/RosSharpDefinitions/Joint.cs
+  artifactKey: Guid(d5ce6f0d4b35a3a4983e4eb9286fb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/RosSharpDefinitions/Joint.cs using Guid(d5ce6f0d4b35a3a4983e4eb9286fb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6e7bc8aae1af6d2f5169bc4faa48b4') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.368692 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Controller/FKRobot.cs
+  artifactKey: Guid(9c090eaaa853542969cc52590a778d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Controller/FKRobot.cs using Guid(9c090eaaa853542969cc52590a778d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961d00f78460fb381eeb769a26049df0') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.374954 seconds.
+  path: Packages/com.unity.robotics.urdf-importer/Runtime/Controller/IKRobot.cs
+  artifactKey: Guid(eecb3912c17824545b9360dfb3358976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.urdf-importer/Runtime/Controller/IKRobot.cs using Guid(eecb3912c17824545b9360dfb3358976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c333bd01cb3f9cd8de29faaa9d783c52') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 17.64 ms, found 14 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <999670adb4c84ac4bad3ce4f6391c9c9>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.904 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (904ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (384ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 18.51 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (55.4 KB). Loaded Objects now: 4999.
+Memory consumption went from 150.7 MB to 150.6 MB.
+Total: 3.463500 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.209300 ms MarkObjects: 2.829800 ms  DeleteObjects: 0.103600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.415 seconds
+Refreshing native plugins compatible for Editor in 16.82 ms, found 14 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <999670adb4c84ac4bad3ce4f6391c9c9>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 20.23 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (55.3 KB). Loaded Objects now: 5003.
+Memory consumption went from 150.9 MB to 150.9 MB.
+Total: 3.057500 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.197400 ms MarkObjects: 2.445600 ms  DeleteObjects: 0.084500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 17.16 ms, found 14 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <999670adb4c84ac4bad3ce4f6391c9c9>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 1325ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 18.46 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (55.3 KB). Loaded Objects now: 5007.
+Memory consumption went from 150.9 MB to 150.9 MB.
+Total: 5.183000 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.374700 ms MarkObjects: 4.205000 ms  DeleteObjects: 0.165100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
