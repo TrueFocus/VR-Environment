@@ -5,20 +5,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638519914537797251
-    m_Hash: 3255297144
+      ticks: 638520724228258521
+    m_Hash: 3103532481
   m_LockFileStatus:
     m_FilePath: C:/Users/joost/Documents/GitHub/VR-Environment/VR-environment/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638519914537857418
-    m_Hash: 138977408
+      ticks: 638520724228324269
+    m_Hash: 4052904674
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
+  - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.ros-tcp-connector/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638520723614762204
+    m_Hash: 3588792565
+  - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.ros-tcp-connector
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
   - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.urdf-importer/package.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
@@ -27,6 +41,20 @@ m_LocalPackages:
       ticks: 638519913476294768
     m_Hash: 2638458312
   - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.urdf-importer
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.visualizations/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638520723739026322
+    m_Hash: 590528918
+  - m_FilePath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.visualizations
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -271,6 +299,60 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.robotics.ros-tcp-connector@file:C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.ros-tcp-connector
+  testable: 0
+  isDirectDependency: 1
+  version: 0.7.0-preview
+  source: 4
+  resolvedPath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.ros-tcp-connector
+  assetPath: Packages/com.unity.robotics.ros-tcp-connector
+  name: com.unity.robotics.ros-tcp-connector
+  displayName: ROS TCP Connector
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Bridge components and message generation allowing Unity to communicate
+    with ROS and ROS2 services
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.robotics.urdf-importer@file:C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.urdf-importer
   testable: 0
   isDirectDependency: 1
@@ -301,6 +383,59 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.robotics.visualizations@file:C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.visualizations
+  testable: 0
+  isDirectDependency: 1
+  version: 0.7.0-preview
+  source: 4
+  resolvedPath: C:\Users\joost\Documents\GitHub\VR-Environment\com.unity.robotics.visualizations
+  assetPath: Packages/com.unity.robotics.visualizations
+  name: com.unity.robotics.visualizations
+  displayName: Unity Robotics Visualizations
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Components for displaying specific ROS messages
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
   keywords: []
   registry:
     id: main
