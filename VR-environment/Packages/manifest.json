@@ -2,9 +2,9 @@
   "dependencies": {
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.feature.development": "1.0.1",
-    "com.unity.robotics.ros-tcp-connector": "file:C:/Users/joost/Documenten/GitHub/VR-Environment/com.unity.robotics.ros-tcp-connector",
-    "com.unity.robotics.urdf-importer": "file:C:/Users/joost/Documenten/GitHub/VR-Environment/com.unity.robotics.urdf-importer",
-    "com.unity.robotics.visualizations": "file:C:/Users/joost/Documenten/GitHub/VR-Environment/com.unity.robotics.visualizations",
+    "com.unity.robotics.ros-tcp-connector": "file:Packages/com.unity.robotics.ros-tcp-connector",
+    "com.unity.robotics.urdf-importer": "file:Packages/com.unity.robotics.urdf-importer",
+    "com.unity.robotics.visualizations": "file:Packages/com.unity.robotics.visualizations",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",
