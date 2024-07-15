@@ -3,6 +3,8 @@
 ## Project Description
 This repository contains the project files for the virtual environment created for the PACOF project. This virtual environment is a visual approximation of the Franka Emika Panda and the whack-a-mole game of the PACOF project.
 ## Prerequisites
+- An installation of SteamVR
+- An installation of VIVEPORT
 - Unity version 2022.3.29f
 - An installation of the ROS TCP Endpoint package on the local PC.
 - A PC with a connection to a Franka Emika Panda and a Force Dimension Omega 7 capable of running the `wham` launch file
